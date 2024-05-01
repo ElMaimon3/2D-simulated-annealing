@@ -2,6 +2,8 @@ simulated_annealing.py will take sequences of 'p' and 'h' and optimize them with
 are named with number, starting at 1.
 To run the script, use the sequences you wish to optimize as command line arguments. An example command is:
 python simulated_annealing.py hhhhhhhhhhhhhhhhhhhhppppppppppppppppppppppppppppppppp hpppppphhhhhhhhhhhhppphhhhhhhpppppppphhhhhhpppp hppppppppphhhhhhhhhhhhhhhppppppppphhhhhhpppphhhh
+
+
 Pseudocode:
 
 Function calculate_energy(sequence, path)
