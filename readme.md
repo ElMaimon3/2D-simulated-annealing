@@ -1,11 +1,11 @@
+# 2D Simulated Annealing for proteins
 simulated_annealing.py will take sequences of 'p' and 'h' and optimize them with simulated annealing 20 times, then save a png file with the 20 structures obtained for each sequence. The files
-are named with number, starting at 1.
+are named with numbers, starting at 1.
 To run the script, use the sequences you wish to optimize as command line arguments. An example command is:
 python simulated_annealing.py hhhhhhhhhhhhhhhhhhhhppppppppppppppppppppppppppppppppp hpppppphhhhhhhhhhhhppphhhhhhhpppppppphhhhhhpppp hppppppppphhhhhhhhhhhhhhhppppppppphhhhhhpppphhhh
 
 
-Pseudocode:
-
+# Pseudocode
 Function calculate_energy(sequence, path)
     Initialize energy to 0
     Initialize position as a list with two zeros
